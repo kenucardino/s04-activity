@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>S04 Activity - Cardiño</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<header>
+		<h1>Zuitt IT Solutions</h1>
+	</header>
+	<article>
+	<h2>Products Offered</h2>
+		<table border="1" id="products">
+			<thead>
+				<tr>
+					<th>Package</th>
+					<th>Price</th>
+					<th>Duration</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>				
+					<td>Trial</td>
+					<td>Free</td>
+					<td > 7 days</td>
+					<td rowspan="2"> Basic features of application is available</td>
+				</tr>			<tr>				
+					<td>Basic</td>
+					<td>&#8369;500</td>
+					<td rowspan="2">1 month</td>
+				</tr>			<tr>				
+					<td>Premium</td>
+					<td>&#8369;1000</td>
+					<td>Advance features of application is available</td>
+				</tr>			<tr>				
+					<th colspan="4">On-top services may be inlcuded with additional pricing</th>
+				</tr>
+				
+			</tbody>
+		</table>
+	</article>
+	<article>
+		<h2>Contact Form</h2>
+		<form>
+			<label for="firstName">First Name:</label>
+			<br>
+			<input type="text" name="firstName" id="firstName" required autocomplete="">
+			<br>
+			<label for="lastName">Last Name:</label>
+			<br>
+			<input type="text" name="lastName" id="lastName" required autocomplete>
+			<br>
+			<label for="email">Email:</label>
+			<br>
+			<input type="email" name="email" id="email" required autocomplete>
+			<br>
+			<label for="contactNumber">Contact Number:</label>
+			<br>
+			<input type="number" name="contactNumber" id="contactNumber" required autocomplete>
+			<br>
+			<label for="serviceType">Service Type:</label>
+			<br>
+			<select name="serviceType" id="serviceType">
+				<option>Front-end Solution</option>
+				<option>Back-end Solution</option>
+				<option>Fullstack Solution</option>
+			</select>
+			<br>
+
+			<label>Preferred Contact:</label>
+			<br>
+			<input type="checkbox" name="phone" id="preferedContact1">
+			<label for="preferedContact1">Phone</label>
+			<br>
+			<input type="checkbox" name="email" id="preferedContact2">
+			<label for="preferedContact2">Email</label>
+			<br>
+			<strong>Service Tier:</strong> 
+			<br>
+			<input type="radio" name="serviceTier" id="serviceTier1" required>
+			<label for=serviceTier1>Trial</label>
+			<br>
+			<input type="radio" name="serviceTier" id="serviceTier2">
+			<label for=serviceTier2>Basic</label>
+			<br>
+			<input type="radio" name="serviceTier" id="serviceTier3">
+			<label for=serviceTier3>Premium</label>
+			<br>
+
+			<strong>Addtional Request:</strong>
+			<br>
+			<textarea name="notes" id="notes" rows="5" cols="20" style="resize: none;"></textarea>
+			<br>
+			<input type="submit" name="submit">
+			<input type="reset" name="reset">
+		</form>
+	</article>
+</body>
+</html>
